@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-
+import Header from './component/header';
+import Content from './component/content';
+import Intro from './component/intro';
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="row">
-          <div className="col-10 col-offset-1">
-            <h1>Hello React Component</h1>
-          </div>
+      <div>
+        <Intro/>
+        <Header/>
+        <div className="container">
+          <Content/>
         </div>
       </div>
     );
