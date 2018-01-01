@@ -5,7 +5,7 @@ class Content extends Component {
       render() {
         return (
           <div>
-            <h1>Andika Nugraha</h1>
+            <h1>Muhammad Andika Nugraha</h1>
           </div>
         );
       }
