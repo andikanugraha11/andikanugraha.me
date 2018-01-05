@@ -22,11 +22,11 @@ class Intro extends Component {
                         <p>based on Jabodetabek</p>
                     </div>
                     <div className="social-links">
-                        <a href="/"><i className="fa fa-github"></i></a>
-                        <a href="/"><i className="fa fa-google"></i></a>
-                        <a href="/"><i className="fa fa-linkedin"></i></a>
-                        <a href="/"><i className="fa fa-instagram"></i></a>
-                        <a href="/"><i className="fa fa-facebook"></i></a>
+                        <a href="http://www.github.com/AndikaNugraha11"><i className="fa fa-github"></i></a>
+                        <a href="https://plus.google.com/u/0/+AndikaNugraha11"><i className="fa fa-google"></i></a>
+                        <a href="https://id.linkedin.com/in/andika-nugraha-256049102"><i className="fa fa-linkedin"></i></a>
+                        <a href="http://www.instagram.com/Andika.nugr"><i className="fa fa-instagram"></i></a>
+                        <a href="http://www.facebook.com/AndikaNugraha11"><i className="fa fa-facebook"></i></a>
                     </div>
                 </div>
             </section>
