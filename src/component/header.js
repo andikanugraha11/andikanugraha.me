@@ -25,8 +25,11 @@ class Header extends Component {
               <NavbarToggler onClick={this.toggle} />
               <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav navbar>
-                <NavItem>
-                    <NavLink href="/components/">Components</NavLink>
+                  <NavItem className="inline">
+                    <NavLink href="/components/">Route 1</NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink href="/other/">Route 2</NavLink>
                   </NavItem>
                 </Nav>
                 <Nav className="ml-auto" navbar>
