@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Link } from 'react-router-dom'
 import './home.css';
 class Header extends Component {
     constructor(props) {
@@ -30,6 +31,12 @@ class Header extends Component {
                   </NavItem>
                   <NavItem>
                     <NavLink href="/routeTwo">Route 2</NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <Link to='/'>Route 1 to</Link>
+                  </NavItem>
+                  <NavItem>
+                    <Link to='/routeTwo'>Route 2 to</Link>
                   </NavItem>
                 </Nav>
                 <Nav className="ml-auto" navbar>
